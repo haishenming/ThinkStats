@@ -156,7 +156,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-将删除 .gitignore
 将删除 .idea/
 将删除 __pycache__/
 将删除 .idea/ThinkStats.iml

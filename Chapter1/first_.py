@@ -5,7 +5,7 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-from Chapter1 import survey
+from libs import survey
 
 
 # copying Mean from thinkstats.py so we don't have to deal with
