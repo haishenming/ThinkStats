@@ -1,10 +1,11 @@
 import math
 
+import matplotlib.pyplot as pyplot
+
 from libs import thinkstati
 from Chapter1.first_ import *
 
-
-pumkins = [1,1,1,2,2,591]
+pumkins = [1, 1, 1, 2, 2, 591]
 
 
 def Pumpkin(pumkins):
@@ -12,6 +13,7 @@ def Pumpkin(pumkins):
     print("mean:", thinkstati.Mean(pumkins))
     print("variance:", thinkstati.Var(pumkins))
     print("Standard deviation", math.sqrt(thinkstati.Var(pumkins)))
+
 
 def Summarize(data_dir):
     """Prints summary statistics for first babies and others.
@@ -29,5 +31,7 @@ def Summarize(data_dir):
 
 
 if __name__ == '__main__':
-    Pumpkin(pumkins)
-    Summarize(".")
+    # Pumpkin(pumkins)
+    # Summarize(".")
+    pyplot.pie([1, 2, 3, 4])
+    pyplot.show()
