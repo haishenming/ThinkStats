@@ -159,3 +159,7 @@ venv.bak/
 将删除 .gitignore
 将删除 .idea/
 将删除 __pycache__/
+将删除 .idea/ThinkStats.iml
+将删除 .idea/inspectionProfiles/
+将删除 .idea/misc.xml
+将删除 .idea/modules.xml
